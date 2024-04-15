@@ -11,7 +11,7 @@
 3) В $\LaTeX$-овском $\texttt{pdf}$ лежат вычисления погрешностей
 
 ## [3] [Численное решение систем уравнений](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/SystemsOfEquations)
-Численные методы решения систем уравнений. Код написан на $\textcolor{red}{\texttt{Java}}$: 
+Численные методы решения систем уравнений. Код написан на $\textcolor{red}{\texttt{Java}}$
 1) Метод Зейделя
 2) LU-разложение
 3) QR-разложение
