@@ -1,65 +1,8 @@
-# 2 курс
-## [1] [Градиентный спуск](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/GradientDescend)
-Реализация градиентного спуска на $\textcolor{orange}{\texttt{Python}}$
-1) Наискорейший покоординатный и
-2) наискорейший градиентный спуски.
-   
-## [2] [Вычисление погрешностей](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/ErrorRateCalculation)
-Реализация на $\textcolor{blue}{\texttt{C++}}$
-1) Разложение разных функций через ряд Тейлора
-2) Вычисление корня через формулы Герона
-3) В $\LaTeX$-овском $\texttt{pdf}$ лежат вычисления погрешностей
-
-## [3] [Численное решение систем уравнений](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/SystemsOfEquations)
-Численные методы решения систем уравнений. Код написан на $\textcolor{red}{\texttt{Java}}$
-1) Метод Зейделя
-2) LU-разложение
-3) QR-разложение
-4) Метод простых итераций
-
-## [4] [Метод Ньютона решения уравнений](https://github.com/verse-chorus/NumericalMethodsSPbU/blob/main/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD.ipynb)
-1) Нелинейные уравнения
-2) Системы нелинейных уравнений
-3) LU-разложение для решения вспомогательной СЛАУ в методе Ньютона
-
-# 3 Курс
-Весь код для задачек ниже написан на $\textcolor{orange}{\texttt{Python}}$
-## [1] [МНК](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/LeastSquaresMethod)
-1) Аналитическое решение МНК через нормальные уравнения
-2) Вычисление ошибки аппроксимации полиномами разной степени
-3) Построение ортогональных полиномов
-4) Сравнение указанных подходов
-
-## [2] [Интерполяция](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/Interpolation)
-1) Многочлены Лагранжа, Ньютона
-2) Сплайны: линейные
-3) Квадратичные
-4) Кубические
-
-В каждом подходе считаем и по равноотстоящим узлам, и по оптимальным узлам Чебышева. Производится также подсчет отклонений
-## [3] [Интегрирование](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/IntegralsAndSODE)
-### Вычисление интегралов с помощью формул Ньютона-Котеса и квадратурной формулы Гаусса
-1) Интерполяционная квадратурная формула (ИКФ) с равноотстоящими узлами — ИКФ Ньютона—Котеса
-2) Квадратурная формула наивысшей алгебраической степени точности (КФНАСТ), или ИКФ Гаусса
-3) Также есть формулы Симпсона, трапеций, левых и средных прямоугольников, но они не особо интересные
-
-### Вычисление погрешностей интегрирования
-1) Метод Ричардсона
-2) Метод Рунге (частный случай формулы Ричардсона)
-
-## [4] [Решение задачи Коши для систем ОДУ (СОДУ) методом Рунге-Кутты](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/IntegralsAndSODE)
-### Методы решения
-1) Решение задачи Коши с помощью явного метода Рунге-Кутты 2 порядка (ЯМРК 2): с постоянным и автоматически выбираемым шагом
-3) Решение задачи Коши с помощью ЯМРК 4 в качестве схемы-оппонента: с постоянным и автоматически выбираемым шагом 
-
-### Анализ результатов
-1) Зависимость нормы точной погрешности в конце отрезка от шага $h=2^{-k}$, $k=\overline{1,\dots}$
-2) Подборка оптимального постоянного шага для ЯМРК 2, ЯМРК 4 
-3) Зависимость точной полной погрешности от независимой переменной $x$ в случае с постоянным шагом
-4) Поиск начального шага
-5) Рассчет оценки локальной погрешности методом Рунге
-6) Рассчет оценки полной погрешности методом Рунге
-7) Автоматический выбор шага интегрирования для ЯМРК 2, ЯМРК 4
-8) Зависимость длины шага от независимой переменной
-9) Количество обращений к правой части СОДУ и зависимость числа обращений от задаваемой точности $\varepsilon$
-10) Проверка условия на попадание в граничную точку $x_1$ интервала интегрирования $[x_0, x_1]$
+- [Градиентный спуск](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/GradientDescend)
+- [Вычисление погрешностей](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/ErrorRateCalculation)
+- [Численное решение систем уравнений](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/SystemsOfEquations)
+- [Метод Ньютона решения уравнений](https://github.com/verse-chorus/NumericalMethodsSPbU/blob/main/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD.ipynb)
+- [МНК](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/LeastSquaresMethod)
+- [Интерполяция](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/Interpolation)
+- [Интегрирование](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/IntegralsAndSODE)
+- [Решение задачи Коши для систем ОДУ (СОДУ) методом Рунге-Кутты](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/IntegralsAndSODE)
