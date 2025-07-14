@@ -1,7 +1,7 @@
 - [Градиентный спуск](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/GradientDescend)
 - [Вычисление погрешностей](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/ErrorRateCalculation)
 - [Численное решение систем уравнений](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/SystemsOfEquations)
-- [Метод Ньютона решения уравнений](https://github.com/verse-chorus/NumericalMethodsSPbU/blob/main/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD.ipynb)
+- [Метод Ньютона решения уравнений](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/Newton)
 - [МНК](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/LeastSquaresMethod)
 - [Интерполяция](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/Interpolation)
 - [Интегрирование](https://github.com/verse-chorus/NumericalMethodsSPbU/tree/main/IntegralsAndSODE)
